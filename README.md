@@ -1,4 +1,4 @@
-## @stable-org/auth-angular-sdk@0.0.2
+## @stable-org/auth-angular-sdk@0.0.3
 
 ### Building
 
@@ -19,7 +19,7 @@ Navigate to the folder of your consuming project and run one of next commands.
 _published:_
 
 ```
-npm install @stable-org/auth-angular-sdk@0.0.2 --save
+npm install @stable-org/auth-angular-sdk@0.0.3 --save
 ```
 
 _without publishing (not recommended):_
