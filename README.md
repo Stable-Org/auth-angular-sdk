@@ -1,4 +1,4 @@
-## @stable-org/auth-angular-sdk@0.0.1
+## @Stable-Org/auth-angular-sdk@0.0.1
 
 ### Building
 
@@ -19,7 +19,7 @@ Navigate to the folder of your consuming project and run one of next commands.
 _published:_
 
 ```
-npm install @stable-org/auth-angular-sdk@0.0.1 --save
+npm install @Stable-Org/auth-angular-sdk@0.0.1 --save
 ```
 
 _without publishing (not recommended):_
@@ -39,7 +39,7 @@ npm link
 
 In your project:
 ```
-npm link @stable-org/auth-angular-sdk
+npm link @Stable-Org/auth-angular-sdk
 ```
 
 __Note for Windows users:__ The Angular CLI has troubles to use linked npm packages.
@@ -54,7 +54,7 @@ In your Angular project:
 
 ```
 // without configuring providers
-import { ApiModule } from '@stable-org/auth-angular-sdk';
+import { ApiModule } from '@Stable-Org/auth-angular-sdk';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -73,7 +73,7 @@ export class AppModule {}
 
 ```
 // configuring providers
-import { ApiModule, Configuration, ConfigurationParameters } from '@stable-org/auth-angular-sdk';
+import { ApiModule, Configuration, ConfigurationParameters } from '@Stable-Org/auth-angular-sdk';
 
 export function apiConfigFactory (): Configuration {
   const params: ConfigurationParameters = {
@@ -93,7 +93,7 @@ export class AppModule {}
 
 ```
 // configuring providers with an authentication service that manages your access tokens
-import { ApiModule, Configuration } from '@stable-org/auth-angular-sdk';
+import { ApiModule, Configuration } from '@Stable-Org/auth-angular-sdk';
 
 @NgModule({
     imports: [ ApiModule ],
@@ -117,7 +117,7 @@ export class AppModule {}
 ```
 
 ```
-import { DefaultApi } from '@stable-org/auth-angular-sdk';
+import { DefaultApi } from '@Stable-Org/auth-angular-sdk';
 
 export class AppComponent {
     constructor(private apiGateway: DefaultApi) { }
@@ -155,7 +155,7 @@ export class AppModule {
 If different than the generated base path, during app bootstrap, you can provide the base path to your service.
 
 ```
-import { BASE_PATH } from '@stable-org/auth-angular-sdk';
+import { BASE_PATH } from '@Stable-Org/auth-angular-sdk';
 
 bootstrap(AppComponent, [
     { provide: BASE_PATH, useValue: 'https://your-web-service.com' },
@@ -164,7 +164,7 @@ bootstrap(AppComponent, [
 or
 
 ```
-import { BASE_PATH } from '@stable-org/auth-angular-sdk';
+import { BASE_PATH } from '@Stable-Org/auth-angular-sdk';
 
 @NgModule({
     imports: [],
@@ -188,7 +188,7 @@ export const environment = {
 
 In the src/app/app.module.ts:
 ```
-import { BASE_PATH } from '@stable-org/auth-angular-sdk';
+import { BASE_PATH } from '@Stable-Org/auth-angular-sdk';
 import { environment } from '../environments/environment';
 
 @NgModule({
