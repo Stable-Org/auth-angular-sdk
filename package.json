@@ -1,7 +1,7 @@
 {
-  "name": "@Stable-Org/auth-angular-sdk",
+  "name": "@stable-org/auth-angular-sdk",
   "version": "0.0.1",
-  "description": "OpenAPI client for @Stable-Org/auth-angular-sdk",
+  "description": "OpenAPI client for @stable-org/auth-angular-sdk",
   "author": "OpenAPI-Generator Contributors",
   "repository": {
     "type": "git",
