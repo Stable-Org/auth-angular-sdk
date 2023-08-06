@@ -7,8 +7,11 @@ configuration.ts
 encoder.ts
 git_push.sh
 index.ts
+model/badRequestResponseDto.ts
 model/loginUserRequestDto.ts
+model/loginUserResponseDto.ts
 model/models.ts
+model/unauthorizedResponseDto.ts
 ng-package.json
 package.json
 param.ts

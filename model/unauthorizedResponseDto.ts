@@ -11,18 +11,18 @@
  */
 
 
-export interface LoginUserRequestDto { 
+export interface UnauthorizedResponseDto { 
     /**
-     * The email of the user
+     * HTTP status code of the error
      */
-    email: string;
+    statusCode: number;
     /**
-     * The password of the user (minimum 8 characters)
+     * Short description of the error
      */
-    password: string;
+    message: string;
     /**
-     * The new password to set for the user (optional, minimum 8 characters)
+     * Error type
      */
-    newPassword?: string;
+    error: string;
 }
 
