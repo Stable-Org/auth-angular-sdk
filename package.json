@@ -1,11 +1,11 @@
 {
   "name": "@stable-org/auth-angular-sdk",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "OpenAPI client for @stable-org/auth-angular-sdk",
   "author": "OpenAPI-Generator Contributors",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Stable-Org/auth-angular-sdk.git"
+    "url": "https://github.com/stable-org/auth-angular-sdk.git"
   },
   "keywords": [
     "openapi-client",

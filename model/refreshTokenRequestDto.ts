@@ -11,18 +11,10 @@
  */
 
 
-export interface BadRequestResponseDto { 
+export interface RefreshTokenRequestDto { 
     /**
-     * HTTP status code of the error
+     * The refresh token to be used for generating new tokens.
      */
-    statusCode: number;
-    /**
-     * Short descriptions of the errors
-     */
-    message: Array<string>;
-    /**
-     * Error type
-     */
-    error: string;
+    refreshToken: string;
 }
 

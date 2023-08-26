@@ -11,18 +11,10 @@
  */
 
 
-export interface BadRequestResponseDto { 
+export interface AcceptedResponseDto { 
     /**
-     * HTTP status code of the error
+     * An informational message
      */
-    statusCode: number;
-    /**
-     * Short descriptions of the errors
-     */
-    message: Array<string>;
-    /**
-     * Error type
-     */
-    error: string;
+    message: string;
 }
 

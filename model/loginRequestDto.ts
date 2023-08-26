@@ -11,18 +11,18 @@
  */
 
 
-export interface BadRequestResponseDto { 
+export interface LoginRequestDto { 
     /**
-     * HTTP status code of the error
+     * The email of the user
      */
-    statusCode: number;
+    email: string;
     /**
-     * Short descriptions of the errors
+     * The password of the user
      */
-    message: Array<string>;
+    password: string;
     /**
-     * Error type
+     * The new password to set for the user (optional)
      */
-    error: string;
+    newPassword?: string;
 }
 
