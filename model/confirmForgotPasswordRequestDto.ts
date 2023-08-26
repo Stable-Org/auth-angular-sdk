@@ -11,10 +11,18 @@
  */
 
 
-export interface RefreshTokenRequestDto { 
+export interface ConfirmForgotPasswordRequestDto { 
     /**
-     * The refresh token to be used for generating new tokens.
+     * The email of the user
      */
-    refreshToken: string;
+    email: string;
+    /**
+     * The verification code sent to the email
+     */
+    verificationCode: string;
+    /**
+     * The password of the user
+     */
+    newPassword: string;
 }
 

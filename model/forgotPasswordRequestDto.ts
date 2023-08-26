@@ -11,10 +11,10 @@
  */
 
 
-export interface RefreshTokenRequestDto { 
+export interface ForgotPasswordRequestDto { 
     /**
-     * The refresh token to be used for generating new tokens.
+     * The email of the user
      */
-    refreshToken: string;
+    email: string;
 }
 

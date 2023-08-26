@@ -10,7 +10,9 @@ git_push.sh
 index.ts
 model/acceptedResponseDto.ts
 model/badRequestResponseDto.ts
+model/confirmForgotPasswordRequestDto.ts
 model/confirmRequestDto.ts
+model/forgotPasswordRequestDto.ts
 model/loginRequestDto.ts
 model/loginResponseDto.ts
 model/models.ts
